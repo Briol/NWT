@@ -5,9 +5,9 @@ include ("classes/Salle.php");
 include ("classes/Reservation.php");
 ?>
 
-<form>
+<form method="post" action="">
     <select>
-        <option><?php Intervenant?></option>
+        <option><?php Intervenant(); ?></option>
     </select>
     <select>
         <option><?php Groupe?></option>
