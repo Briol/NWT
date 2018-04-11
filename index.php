@@ -1,5 +1,3 @@
-
+<?php ?>
 
 <input type="date" name="reserve">
-
-<?php
