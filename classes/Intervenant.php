@@ -8,5 +8,7 @@
 
 class Intervenant
 {
-    public $nom;
+    private $nom;
 }
+
+$intervenant = new Intervenant();

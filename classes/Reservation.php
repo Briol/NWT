@@ -6,11 +6,13 @@
  * Time: 14:44
  */
 
-class reservation
+class Reservation
 {
-    public $salle;
-    public $disponibilite;
-    public $intervenant;
-    public $date;
-    public $groupe;
+    private $salle;
+    private $disponibilite;
+    private $intervenant;
+    private $date;
+    private $groupe;
 }
+
+$reservation = new Reservation();

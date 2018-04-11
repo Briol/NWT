@@ -8,6 +8,8 @@
 
 class Groupe
 {
-    public $nom;
-    public $nombre;
+    private $nom;
+    private $nombre;
 }
+
+$groupe = new Groupe();

@@ -6,8 +6,10 @@
  * Time: 14:50
  */
 
-class salle
+class Salle
 {
-    public $nom;
-    public $capacite;
+    private $nom;
+    private $capacite;
 }
+
+$salle = new Salle();
