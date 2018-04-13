@@ -49,7 +49,8 @@ if(isset($_POST['reservation'],$_POST['teacherId'],$_POST['groupeName'],$_POST['
 		<?php
             $db=new DB();
             var_dump($db);
-	        $intervenant = $db->query('SELECT * FROM teachers ORDER BY teacherId');
+            $intervenant = $_POST['teacherFirstName'];
+	        $db = ('SELECT * FROM teachers ORDER BY teacherId');
 	        while($intervenants = $intervenant->fetch()) {
 	    ?>
 	        <option value="<?php echo htmlspecialchars($intervenants['teacherFirstName']); ?>"><?php echo htmlspecialchars($intervenants['teacherFirstName']); ?></option>
